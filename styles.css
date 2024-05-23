@@ -26,5 +26,37 @@
     box-sizing: border-box;
 }
 
+* {
+  background-color: var(--bgcream);
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.container {
+  display: flex;
+  border: 1.5px solid #C8C8C6;
+}
 
+.list__item {
+  display: inline;
+}
+
+.header__logo {
+  width: 100%;
+  padding: 25px 518.569px 17px 551.024px;
+  justify-content: flex-end;
+  gap: 12.913px;
+}
+.header__logo > img {
+  width: 34.494px;
+  height: 38.739px;
+}
+
+.header__nav {
+  align-items: stretch;
+}
+
+.header__nav__item {
+  align-items: stretch;
+}
