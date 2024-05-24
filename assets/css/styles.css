@@ -9,21 +9,20 @@
     font-weight: 700;
     font-style: normal;
   } */
-  
+
 :root {
-    
-    --bgcream: #F8F7F0;
-    --textblack: #101010;
-    --textwhite: #FAFAFA;
-    --outlinegray: #C8C8C6;
+  --bgcream: #f8f7f0;
+  --textblack: #101010;
+  --textwhite: #fafafa;
+  --outlinegray: #c8c8c6;
 }
 
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 * {
@@ -35,7 +34,7 @@
 
 .container {
   display: flex;
-  border: 1.5px solid #C8C8C6;
+  border: 1.5px solid #c8c8c6;
 }
 
 .list__item {
